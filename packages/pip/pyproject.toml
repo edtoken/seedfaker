@@ -35,9 +35,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/opendsr-std/seedfaker"
-Repository = "https://github.com/opendsr-std/seedfaker"
-Documentation = "https://github.com/opendsr-std/seedfaker/blob/main/docs/field-reference.md"
+Homepage = "https://github.com/edtoken/seedfaker"
+Repository = "https://github.com/edtoken/seedfaker"
+Documentation = "https://github.com/edtoken/seedfaker/blob/main/docs/field-reference.md"
 
 [tool.maturin]
 manifest-path = "../../rust/pyo3/Cargo.toml"

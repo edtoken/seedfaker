@@ -25,9 +25,9 @@
       "Seedfaker\\": "src/"
     }
   },
-  "homepage": "https://github.com/opendsr-std/seedfaker",
+  "homepage": "https://github.com/edtoken/seedfaker",
   "support": {
-    "issues": "https://github.com/opendsr-std/seedfaker/issues",
-    "source": "https://github.com/opendsr-std/seedfaker"
+    "issues": "https://github.com/edtoken/seedfaker/issues",
+    "source": "https://github.com/edtoken/seedfaker"
   }
 }

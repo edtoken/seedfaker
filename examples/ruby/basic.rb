@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # Install:  gem install seedfaker
 # Requires: libseedfaker_ffi shared library
-# Docs:     https://github.com/opendsr-std/seedfaker
+# Docs:     https://github.com/edtoken/seedfaker
 
 require "seedfaker"
 

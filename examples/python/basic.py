@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Install:  pip install seedfaker
-Docs:     https://github.com/opendsr-std/seedfaker
+Docs:     https://github.com/edtoken/seedfaker
 """
 
 from seedfaker import SeedFaker

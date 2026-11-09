@@ -15,4 +15,4 @@ npm install @opendsr/seedfaker-cli    # CLI tool
 
 - [npm: @opendsr/seedfaker](https://www.npmjs.com/package/@opendsr/seedfaker)
 - [npm: @opendsr/seedfaker-cli](https://www.npmjs.com/package/@opendsr/seedfaker-cli)
-- [Documentation & source](https://github.com/opendsr-std/seedfaker)
+- [Documentation & source](https://github.com/edtoken/seedfaker)

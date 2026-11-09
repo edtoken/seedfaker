@@ -5,7 +5,7 @@ seedfaker + FastAPI — synthetic data API endpoint
 Install:  pip install seedfaker fastapi uvicorn
 Run:      uvicorn fastapi_example:app
 Test:     curl 'http://localhost:8000/users?n=5&seed=demo&locale=en'
-Docs:     https://github.com/opendsr-std/seedfaker
+Docs:     https://github.com/edtoken/seedfaker
 """
 
 from fastapi import FastAPI, Query

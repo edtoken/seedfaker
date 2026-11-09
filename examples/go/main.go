@@ -1,6 +1,6 @@
-// Install:  go get github.com/opendsr-std/seedfaker-go
+// Install:  go get github.com/edtoken/seedfaker-go
 // Requires: libseedfaker_ffi shared library, CGO enabled
-// Docs:     https://github.com/opendsr-std/seedfaker
+// Docs:     https://github.com/edtoken/seedfaker
 
 package main
 

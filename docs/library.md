@@ -67,7 +67,7 @@ Native NAPI-RS extension.
 ## Go
 
 ```bash
-go get github.com/opendsr-std/seedfaker-go
+go get github.com/edtoken/seedfaker-go
 ```
 
 ```go

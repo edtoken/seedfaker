@@ -22,7 +22,7 @@ Get from zero to your first reproducible dataset in five minutes.
 ## Install
 
 ```bash
-brew install opendsr-std/tap/seedfaker         # macOS / Linux
+brew install edtoken/seedfaker/seedfaker       # macOS / Linux
 cargo install seedfaker                        # from source
 npm install -g @opendsr/seedfaker-cli          # npm
 ```
@@ -165,7 +165,7 @@ $ seedfaker run nginx -n 1 --seed qs --until 2025
 48.116.160.167 - kingmarian02 [28/May/2011:06:25:04 +0000] "GET https://cdn.assets.io/v1/upload HTTP/1.1" 403 ...
 ```
 
-`nginx`, `auth`, `app-json`, `postgres`, `payment`, `pii-leak`, `user-table`, `email`, `stacktrace`, `chaos`, `llm-prompt`, `syslog`, `medical`. See [presets](presets.md) and [source files](https://github.com/opendsr-std/seedfaker/tree/main/rust/cli/src/presets).
+`nginx`, `auth`, `app-json`, `postgres`, `payment`, `pii-leak`, `user-table`, `email`, `stacktrace`, `chaos`, `llm-prompt`, `syslog`, `medical`. See [presets](presets.md) and [source files](https://github.com/edtoken/seedfaker/tree/main/rust/cli/src/presets).
 
 ## Replace PII
 

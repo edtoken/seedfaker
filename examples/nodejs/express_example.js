@@ -5,7 +5,7 @@
  * Install:  npm install @opendsr/seedfaker express
  * Run:      node express_example.js
  * Test:     curl 'http://localhost:3000/users?n=5&seed=demo&locale=en'
- * Docs:     https://github.com/opendsr-std/seedfaker
+ * Docs:     https://github.com/edtoken/seedfaker
  */
 
 const express = require("express");

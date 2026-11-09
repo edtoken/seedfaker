@@ -29,4 +29,4 @@ Never edit these by hand. `rust/core/src/field_gen.rs` comes from `rust/core/fie
 
 ## Related repositories
 
-The release workflow writes `seedfaker-go`, `seedfaker-php`, and `homebrew-tap` from this repository. Change the source here.
+The release workflow writes `seedfaker-go`, `seedfaker-php`, and `homebrew-seedfaker` from this repository. Change the source here.

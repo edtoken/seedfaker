@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Install:  npm install @opendsr/seedfaker
- * Docs:     https://github.com/opendsr-std/seedfaker
+ * Docs:     https://github.com/edtoken/seedfaker
  */
 
 const { SeedFaker } = require("@opendsr/seedfaker");
