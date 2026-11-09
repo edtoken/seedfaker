@@ -626,7 +626,7 @@ jobs:
           packages-dir: dist/
 
   # ---------------------------------------------------------------------------
-  # Publish: Go module (opendsr-std/seedfaker-go)
+  # Publish: Go module (edtoken/seedfaker-go)
   # ---------------------------------------------------------------------------
 
   publish-go:
@@ -644,7 +644,7 @@ jobs:
       - name: Checkout seedfaker-go
         uses: actions/checkout@v5
         with:
-          repository: opendsr-std/seedfaker-go
+          repository: edtoken/seedfaker-go
           token: ${{ secrets.GO_MODULE_TOKEN }}
           path: seedfaker-go
       - name: Update Go module
@@ -710,7 +710,7 @@ jobs:
       - name: Checkout seedfaker-php
         uses: actions/checkout@v5
         with:
-          repository: opendsr-std/seedfaker-php
+          repository: edtoken/seedfaker-php
           token: ${{ secrets.PHP_REPO_TOKEN }}
           path: seedfaker-php
       - name: Inject per-platform checksums into SeedFaker.php
@@ -803,7 +803,7 @@ jobs:
             s.description = "200+ fields, 60+ locales. Same seed = same output across CLI, Python, Node.js, Go, PHP, Ruby."
             s.authors     = ["Eduard Titov"]
             s.email       = "editied@gmail.com"
-            s.homepage    = "https://github.com/opendsr-std/seedfaker"
+            s.homepage    = "https://github.com/edtoken/seedfaker"
             s.license     = "MIT"
             s.files       = Dir["lib/**/*", "bin/**/*", "README.md", "LICENSE"]
             s.require_paths = ["lib"]
@@ -844,7 +844,7 @@ jobs:
         id: sha
         run: |
           VERSION="${{ needs.validate.outputs.tag }}"
-          BASE="https://github.com/opendsr-std/seedfaker/releases/download/v${VERSION}"
+          BASE="https://github.com/edtoken/seedfaker/releases/download/v${VERSION}"
           mkdir -p tarballs
           for platform in darwin-arm64 darwin-x64 linux-x64 linux-arm64; do
             url="${BASE}/seedfaker-${platform}.tar.gz"
@@ -858,13 +858,13 @@ jobs:
       - name: Checkout Homebrew tap
         uses: actions/checkout@v5
         with:
-          repository: opendsr-std/homebrew-tap
+          repository: edtoken/homebrew-seedfaker
           token: ${{ secrets.HOMEBREW_TAP_TOKEN }}
           path: homebrew-tap
       - name: Write formula
         run: |
           VERSION="${{ needs.validate.outputs.tag }}"
-          BASE="https://github.com/opendsr-std/seedfaker/releases/download/v${VERSION}"
+          BASE="https://github.com/edtoken/seedfaker/releases/download/v${VERSION}"
           mkdir -p homebrew-tap/Formula
           cat > homebrew-tap/Formula/seedfaker.rb <<EOF
           # typed: false
@@ -872,7 +872,7 @@ jobs:
 
           class Seedfaker < Formula
             desc "Deterministic synthetic data generator"
-            homepage "https://github.com/opendsr-std/seedfaker"
+            homepage "https://github.com/edtoken/seedfaker"
             license "MIT"
             version "${VERSION}"
 

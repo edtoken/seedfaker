@@ -1,3 +1,3 @@
-module github.com/opendsr-std/seedfaker-go
+module github.com/edtoken/seedfaker-go
 
 go 1.21

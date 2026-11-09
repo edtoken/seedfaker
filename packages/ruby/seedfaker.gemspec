@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.description = "200+ fields, 60+ locales. Same seed = same output. Native FFI + CLI fallback."
   s.authors     = ["Eduard Titov"]
   s.email       = "editied@gmail.com"
-  s.homepage    = "https://github.com/opendsr-std/seedfaker"
+  s.homepage    = "https://github.com/edtoken/seedfaker"
   s.license     = "MIT"
   s.files       = Dir["lib/**/*.rb", "bin/**/*", "seedfaker.gemspec"]
   s.required_ruby_version = ">= 2.7"

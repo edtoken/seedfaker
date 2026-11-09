@@ -2,12 +2,12 @@
 
 Deterministic synthetic data generator — 200+ fields, 60+ locales, multi-table FK, same seed = same output.
 
-**CLI** · [Node.js](https://www.npmjs.com/package/@opendsr/seedfaker) · [Python](https://pypi.org/project/seedfaker/) · [Browser/WASM](https://www.npmjs.com/package/@opendsr/seedfaker-wasm) · [Go](https://github.com/opendsr-std/seedfaker-go) · [PHP](https://packagist.org/packages/opendsr/seedfaker) · [Ruby](https://rubygems.org/gems/seedfaker) · [MCP](https://github.com/opendsr-std/seedfaker/blob/main/docs/mcp.md)
+**CLI** · [Node.js](https://www.npmjs.com/package/@opendsr/seedfaker) · [Python](https://pypi.org/project/seedfaker/) · [Browser/WASM](https://www.npmjs.com/package/@opendsr/seedfaker-wasm) · [Go](https://github.com/edtoken/seedfaker-go) · [PHP](https://packagist.org/packages/opendsr/seedfaker) · [Ruby](https://rubygems.org/gems/seedfaker) · [MCP](https://github.com/edtoken/seedfaker/blob/main/docs/mcp.md)
 
 ## Install
 
 ```bash
-brew install opendsr-std/tap/seedfaker         # macOS / Linux
+brew install edtoken/seedfaker/seedfaker       # macOS / Linux
 cargo install seedfaker                        # from source
 npm install -g @opendsr/seedfaker-cli          # npm
 ```
@@ -37,11 +37,11 @@ seedfaker name email --annotated --seed train --until 2025 -n 1000
 
 ## Documentation
 
-- [Quick start](https://github.com/opendsr-std/seedfaker/blob/main/docs/quick-start.md)
-- [CLI reference](https://github.com/opendsr-std/seedfaker/blob/main/docs/cli.md)
-- [Field reference (200+ fields)](https://github.com/opendsr-std/seedfaker/blob/main/docs/field-reference.md)
-- [Guides](https://github.com/opendsr-std/seedfaker/blob/main/guides/) — library usage, seed databases, mock APIs, anonymize data, NER training
-- [Full documentation](https://github.com/opendsr-std/seedfaker)
+- [Quick start](https://github.com/edtoken/seedfaker/blob/main/docs/quick-start.md)
+- [CLI reference](https://github.com/edtoken/seedfaker/blob/main/docs/cli.md)
+- [Field reference (200+ fields)](https://github.com/edtoken/seedfaker/blob/main/docs/field-reference.md)
+- [Guides](https://github.com/edtoken/seedfaker/blob/main/guides/) — library usage, seed databases, mock APIs, anonymize data, NER training
+- [Full documentation](https://github.com/edtoken/seedfaker)
 
 ## License
 

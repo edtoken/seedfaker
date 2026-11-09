@@ -2,7 +2,7 @@
 /**
  * Install:  composer require opendsr/seedfaker
  * Requires: PHP >= 8.1, FFI extension, libseedfaker_ffi shared library
- * Docs:     https://github.com/opendsr-std/seedfaker
+ * Docs:     https://github.com/edtoken/seedfaker
  */
 
 require_once __DIR__ . "/../../packages/php/src/SeedFaker.php";

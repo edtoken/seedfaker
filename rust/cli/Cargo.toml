@@ -7,8 +7,8 @@ authors = ["Eduard Titov <editied@gmail.com>"]
 description = "Deterministic synthetic data generator — realistic, correlated, noisy test records across 60+ locales (CLI + Python + Node.js + Go + PHP + Ruby + MCP)"
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/opendsr-std/seedfaker"
-repository = "https://github.com/opendsr-std/seedfaker"
+homepage = "https://github.com/edtoken/seedfaker"
+repository = "https://github.com/edtoken/seedfaker"
 keywords = [
   "faker",
   "synthetic-data",

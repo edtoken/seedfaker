@@ -1,8 +1,8 @@
 # @opendsr/seedfaker-cli
 
-CLI for [seedfaker](https://github.com/opendsr-std/seedfaker) via npm — deterministic synthetic data with 200+ fields, 60+ locales, multi-table FK, and streaming.
+CLI for [seedfaker](https://github.com/edtoken/seedfaker) via npm — deterministic synthetic data with 200+ fields, 60+ locales, multi-table FK, and streaming.
 
-[**CLI**](https://github.com/opendsr-std/seedfaker) · [Node.js](https://www.npmjs.com/package/@opendsr/seedfaker) · [Python](https://pypi.org/project/seedfaker/) · [Browser/WASM](https://www.npmjs.com/package/@opendsr/seedfaker-wasm) · [Go](https://pkg.go.dev/github.com/opendsr-std/seedfaker-go) · [PHP](https://packagist.org/packages/opendsr/seedfaker) · [Ruby](https://rubygems.org/gems/seedfaker) · [MCP](https://github.com/opendsr-std/seedfaker/blob/main/docs/mcp.md)
+[**CLI**](https://github.com/edtoken/seedfaker) · [Node.js](https://www.npmjs.com/package/@opendsr/seedfaker) · [Python](https://pypi.org/project/seedfaker/) · [Browser/WASM](https://www.npmjs.com/package/@opendsr/seedfaker-wasm) · [Go](https://pkg.go.dev/github.com/edtoken/seedfaker-go) · [PHP](https://packagist.org/packages/opendsr/seedfaker) · [Ruby](https://rubygems.org/gems/seedfaker) · [MCP](https://github.com/edtoken/seedfaker/blob/main/docs/mcp.md)
 
 ## Install
 
@@ -27,13 +27,13 @@ seedfaker replace name email < users.csv > anonymized.csv
 
 ## Documentation
 
-- [CLI reference](https://github.com/opendsr-std/seedfaker/blob/main/docs/cli.md)
-- [Field reference (200+ fields)](https://github.com/opendsr-std/seedfaker/blob/main/docs/field-reference.md)
-- [Guides](https://github.com/opendsr-std/seedfaker/blob/main/guides/) — library usage, seed databases, mock APIs, anonymize data, NER training
-- [Full documentation](https://github.com/opendsr-std/seedfaker)
+- [CLI reference](https://github.com/edtoken/seedfaker/blob/main/docs/cli.md)
+- [Field reference (200+ fields)](https://github.com/edtoken/seedfaker/blob/main/docs/field-reference.md)
+- [Guides](https://github.com/edtoken/seedfaker/blob/main/guides/) — library usage, seed databases, mock APIs, anonymize data, NER training
+- [Full documentation](https://github.com/edtoken/seedfaker)
 
 ---
 
 ## Disclaimer
 
-This software generates synthetic data that may resemble real-world identifiers, credentials, or personal information. All output is artificial. See [LICENSE](https://github.com/opendsr-std/seedfaker/blob/main/LICENSE) for the full legal disclaimer.
+This software generates synthetic data that may resemble real-world identifiers, credentials, or personal information. All output is artificial. See [LICENSE](https://github.com/edtoken/seedfaker/blob/main/LICENSE) for the full legal disclaimer.

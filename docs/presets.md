@@ -44,7 +44,7 @@ seedfaker run user-table --seed ci -n 10000 --format csv > fixtures.csv
 
 ## Source
 
-Preset YAML files: [`rust/cli/src/presets/`](https://github.com/opendsr-std/seedfaker/tree/main/rust/cli/src/presets)
+Preset YAML files: [`rust/cli/src/presets/`](https://github.com/edtoken/seedfaker/tree/main/rust/cli/src/presets)
 
 ## Related guides
 

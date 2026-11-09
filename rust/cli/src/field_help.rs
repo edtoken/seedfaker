@@ -11,9 +11,8 @@ const SAMPLE_UNTIL: &str = "2025";
 const SAMPLE_LOCALE: &str = "en";
 
 const FIELD_REFERENCE_URL: &str =
-    "https://github.com/opendsr-std/seedfaker/blob/main/docs/field-reference.md";
-const QUICK_START_URL: &str =
-    "https://github.com/opendsr-std/seedfaker/blob/main/docs/quick-start.md";
+    "https://github.com/edtoken/seedfaker/blob/main/docs/field-reference.md";
+const QUICK_START_URL: &str = "https://github.com/edtoken/seedfaker/blob/main/docs/quick-start.md";
 
 pub fn print_list() {
     let env =

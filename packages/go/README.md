@@ -1,8 +1,8 @@
 # seedfaker-go
 
-Go binding for [seedfaker](https://github.com/opendsr-std/seedfaker) — deterministic synthetic data with 200+ fields, 60+ locales, same seed = same output.
+Go binding for [seedfaker](https://github.com/edtoken/seedfaker) — deterministic synthetic data with 200+ fields, 60+ locales, same seed = same output.
 
-[CLI](https://github.com/opendsr-std/seedfaker) · [Node.js](https://www.npmjs.com/package/@opendsr/seedfaker) · [Python](https://pypi.org/project/seedfaker/) · [Browser/WASM](https://www.npmjs.com/package/@opendsr/seedfaker-wasm) · **Go** · [PHP](https://packagist.org/packages/opendsr/seedfaker) · [Ruby](https://rubygems.org/gems/seedfaker) · [MCP](https://github.com/opendsr-std/seedfaker/blob/main/docs/mcp.md)
+[CLI](https://github.com/edtoken/seedfaker) · [Node.js](https://www.npmjs.com/package/@opendsr/seedfaker) · [Python](https://pypi.org/project/seedfaker/) · [Browser/WASM](https://www.npmjs.com/package/@opendsr/seedfaker-wasm) · **Go** · [PHP](https://packagist.org/packages/opendsr/seedfaker) · [Ruby](https://rubygems.org/gems/seedfaker) · [MCP](https://github.com/edtoken/seedfaker/blob/main/docs/mcp.md)
 
 ## Requirements
 
@@ -13,12 +13,12 @@ Go binding for [seedfaker](https://github.com/opendsr-std/seedfaker) — determi
 ## Install
 
 ```bash
-go get github.com/opendsr-std/seedfaker-go
+go get github.com/edtoken/seedfaker-go
 ```
 
 Pre-built `libseedfaker_ffi` binaries are included in `bin/` for supported platforms.
 
-> **Pre-1.0 notice:** The API may change between minor versions until 1.0.0 is released. Pin your version and check [CHANGELOG.md](https://github.com/opendsr-std/seedfaker/blob/main/CHANGELOG.md) before upgrading.
+> **Pre-1.0 notice:** The API may change between minor versions until 1.0.0 is released. Pin your version and check [CHANGELOG.md](https://github.com/edtoken/seedfaker/blob/main/CHANGELOG.md) before upgrading.
 
 For development from source:
 
@@ -36,7 +36,7 @@ package main
 
 import (
     "fmt"
-    seedfaker "github.com/opendsr-std/seedfaker-go"
+    seedfaker "github.com/edtoken/seedfaker-go"
 )
 
 func main() {
@@ -71,14 +71,14 @@ func main() {
 
 ## Documentation
 
-- [Quick start](https://github.com/opendsr-std/seedfaker/blob/main/docs/quick-start.md)
-- [Field reference (200+ fields)](https://github.com/opendsr-std/seedfaker/blob/main/docs/field-reference.md)
-- [Library API](https://github.com/opendsr-std/seedfaker/blob/main/docs/library.md)
-- [Guides](https://github.com/opendsr-std/seedfaker/blob/main/guides/) — library usage, seed databases, mock APIs, anonymize data, NER training
-- [Full documentation](https://github.com/opendsr-std/seedfaker)
+- [Quick start](https://github.com/edtoken/seedfaker/blob/main/docs/quick-start.md)
+- [Field reference (200+ fields)](https://github.com/edtoken/seedfaker/blob/main/docs/field-reference.md)
+- [Library API](https://github.com/edtoken/seedfaker/blob/main/docs/library.md)
+- [Guides](https://github.com/edtoken/seedfaker/blob/main/guides/) — library usage, seed databases, mock APIs, anonymize data, NER training
+- [Full documentation](https://github.com/edtoken/seedfaker)
 
 ---
 
 ## Disclaimer
 
-This software generates synthetic data that may resemble real-world identifiers, credentials, or personal information. All output is artificial. See [LICENSE](https://github.com/opendsr-std/seedfaker/blob/main/LICENSE) for the full legal disclaimer.
+This software generates synthetic data that may resemble real-world identifiers, credentials, or personal information. All output is artificial. See [LICENSE](https://github.com/edtoken/seedfaker/blob/main/LICENSE) for the full legal disclaimer.

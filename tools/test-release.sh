@@ -14,7 +14,7 @@
 #   pip       seedfaker      (Python)
 #   php       opendsr/seedfaker
 #   ruby      seedfaker      (Ruby gem)
-#   go        github.com/opendsr-std/seedfaker-go
+#   go        github.com/edtoken/seedfaker-go
 #
 # Usage:
 #   bash tools/test-release.sh                              # all
@@ -90,20 +90,20 @@ resolve_version() {
 # brew
 # ---------------------------------------------------------------------------
 test_brew() {
-  header "brew" "homebrew tap: opendsr-std/tap/seedfaker  (macOS native)"
+  header "brew" "homebrew tap: edtoken/seedfaker/seedfaker  (macOS native)"
   if ! command -v brew >/dev/null 2>&1; then
     echo "  SKIP: brew not installed (https://brew.sh)"
     return
   fi
   local ver
   ver=$(resolve_version)
-  brew tap opendsr-std/tap
+  brew tap edtoken/seedfaker
   brew install seedfaker
   run_or_fail "brew: --version"     seedfaker --version
   run_or_fail "brew: --fingerprint" seedfaker --fingerprint
   run_or_fail "brew: generate"      seedfaker name email phone --seed release-test -n 3 --until 2025
   brew uninstall seedfaker 2>/dev/null || true
-  brew untap opendsr-std/tap 2>/dev/null || true
+  brew untap edtoken/seedfaker 2>/dev/null || true
 }
 
 # ---------------------------------------------------------------------------
@@ -334,7 +334,7 @@ ruby /check.rb
 # go
 # ---------------------------------------------------------------------------
 test_go() {
-  local pkg="github.com/opendsr-std/seedfaker-go"
+  local pkg="github.com/edtoken/seedfaker-go"
   [ -n "$VERSION" ] && pkg="${pkg}@v${VERSION}"
   header "go" "module: ${pkg}  (golang:1.22)"
 
@@ -345,7 +345,7 @@ package main
 
 import (
 	"fmt"
-	seedfaker "github.com/opendsr-std/seedfaker-go"
+	seedfaker "github.com/edtoken/seedfaker-go"
 )
 
 func main() {
